@@ -4,9 +4,9 @@ const FooterPage = () => {
   return (
     <div className='py-10 bg-yellow-700 text-white w-full mt-4 px-5'>
         <div className="container-lg flex justify-between">
-            <div className="flex flex-col">
-            <h1>Any phone</h1>
-            <Image src={'/images/phn7.jpeg'}   width={100}  height={100} alt="photo" className="rounded-full"  />
+            <div className="flex flex-col text-center">
+            <h1 className="mb-2 font-bold text-2xl text-black">Any phone goes</h1>
+            <Image src={'/images/phn11.png'}   width={400}  height={200} alt="photo" className=""  />
             </div>
             <div className="text-sm">
                 <h3 className="font-bold text-black text-xl">Our partners</h3>
